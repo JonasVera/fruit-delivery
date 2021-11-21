@@ -32,7 +32,7 @@ ion-content {
 }
 
 ion-card {
-  margin-top: 30px;
+  margin-top: 180px;
   background: transparent;
   box-shadow: none;
   text-align: center;
@@ -40,6 +40,7 @@ ion-card {
   ion-card-title {
     color: #242020;
     font-size: 30px;
+    font-weight: 400;
 
   }
 
@@ -47,8 +48,10 @@ ion-card {
     color: #bbbbbb;
     font-size: 14px;
     font-weight: 400;
+    max-width: 200px;
+    display: inline-block;
 
-    a {
+    strong {
       text-decoration: none;
       font-weight: bold;
       color: #198645;
@@ -57,8 +60,7 @@ ion-card {
   }
 
   ion-card-content {
-
-    margin-top: 180px;
+    margin-top: 30px;
 
     ion-item {
       --ion-item-background: transparent;
